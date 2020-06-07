@@ -1,1 +1,1 @@
-sudo nmap -p -100 -O -sV -version-intensity=9 -sU -sC -sT XXX.XXX.X.XX --reason -d -oX scanz.xml --packet-trace -D 192.168.0.1,192.168.0.2 -T4
+sudo nmap -p- -O -sV -version-intensity=9 -sU -sC -sT XXX.XXX.X.XX --reason -d -oX scan.xml --packet-trace -D 192.168.0.1,192.168.0.2 -T4
